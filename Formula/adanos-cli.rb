@@ -23,6 +23,6 @@ class AdanosCli < Formula
   end
 
   test do
-    assert_match "adanos", shell_output("#<built-in function bin>/adanos --help")
+    assert_match "adanos", shell_output("#{bin}/adanos --help")
   end
 end
