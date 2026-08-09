@@ -1,21 +1,21 @@
 class AdanosCli < Formula
   desc "Comprehensive CLI for the Adanos Market Sentiment API"
   homepage "https://adanos.org"
-  version "1.31.0"
+  version "1.32.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/adanos-software/adanos-cli/releases/download/v1.31.0/adanos-cli-1.31.0-darwin-arm64.tar.gz"
-      sha256 "77bbb1fef509763976443344ba8d0d3661df735e6d87867d43b6341fc3392c2a"
+      url "https://github.com/adanos-software/adanos-cli/releases/download/v1.32.0/adanos-cli-1.32.0-darwin-arm64.tar.gz"
+      sha256 "433b9482b68829962a8c290f55b731eabc124e6b436922aba80ef08e72109ed9"
     else
-      url "https://github.com/adanos-software/adanos-cli/releases/download/v1.31.0/adanos-cli-1.31.0-darwin-x86_64.tar.gz"
-      sha256 "2b444faa5669d4caca2f37bd132831ab902770211fd1f44daa6c6d90d80fe3a7"
+      url "https://github.com/adanos-software/adanos-cli/releases/download/v1.32.0/adanos-cli-1.32.0-darwin-x86_64.tar.gz"
+      sha256 "78979fa017aec4ee220bd44fc6f06daadb6689dc81e3445ec88ffc9717a7f85a"
     end
   end
 
   on_linux do
-    url "https://github.com/adanos-software/adanos-cli/releases/download/v1.31.0/adanos-cli-1.31.0-linux-x86_64.tar.gz"
-    sha256 "2bc192675e1b715adcc055141518c872ab57bfc52e8d7b48822ae18167af8052"
+    url "https://github.com/adanos-software/adanos-cli/releases/download/v1.32.0/adanos-cli-1.32.0-linux-x86_64.tar.gz"
+    sha256 "78e2de61888713563919981d0f0b5972498bcac83ff0dbdcd2304a79f494000d"
   end
 
   def install
