@@ -6,16 +6,16 @@ class AdanosCli < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/adanos-software/adanos-cli/releases/download/v1.34.1/adanos-cli-1.34.1-darwin-arm64.tar.gz"
-      sha256 "0b6c3698d53b117fec264709ae35e207688332eb86512871ae3a0a1e1eb753b1"
+      sha256 "3746eaad691f5cb81b041b40bde929585cbfcf92f13b98b88a70fd3932ba6279"
     else
       url "https://github.com/adanos-software/adanos-cli/releases/download/v1.34.1/adanos-cli-1.34.1-darwin-x86_64.tar.gz"
-      sha256 "17a9074e9aad38ae3fd2d3537791658750b619c330add636b4331c1df8ee0c87"
+      sha256 "c5216e9ef33ef456d63b1ca6781e30ba6d4b807517a4d19e2ca9eff160d82527"
     end
   end
 
   on_linux do
     url "https://github.com/adanos-software/adanos-cli/releases/download/v1.34.1/adanos-cli-1.34.1-linux-x86_64.tar.gz"
-    sha256 "223b6debf7e2f92e906ebbc5b88d7ed55868fb5d8e9423b189a4f0f9390dcf2b"
+    sha256 "2181656dc5fa37d6cc2979caf1382d20c788cd4518d9cbe4e255093c101d654c"
   end
 
   def install
